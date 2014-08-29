@@ -49,4 +49,6 @@ Test.assert_equals RomanNumerals.from_roman('CDXLIV'), 444
 Test.assert_equals RomanNumerals.from_roman('XC'), 90
 Test.assert_equals RomanNumerals.from_roman('XCIX'), 99
 Test.assert_equals RomanNumerals.from_roman('CM'), 900
+Test.assert_equals RomanNumerals.from_roman('l'), 50
+Test.assert_equals RomanNumerals.from_roman('cm'), 900
 

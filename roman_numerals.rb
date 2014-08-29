@@ -36,7 +36,7 @@ class RomanNumerals
   end
 
   def self.from_roman( r )
-    roman_string = r.clone
+    roman_string = r.upcase
     decimal = 0
 
     Hash[SUBSTITUTIONS.to_a.reverse].each_pair do |to, from|
